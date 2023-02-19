@@ -8,3 +8,7 @@ Level 2 :Encryption
  -"mongoose-encryption" package is used and plugins are attached to schema to encrypt the password in database .
  -save()=>Encrypt : find() => decrypt
  -Problem:secret key is written in app.js and anyone who got the secret key from our code could able to decrypt the password.
+
+Level 3 :Encrypt sensitive information like API keys ,secret keys using Environment variables  
+  -create .env file in the root directory and hide it in the .gitignore
+  -problem:if someone able to hack into the secret key,it get decrypted .Not so secure ,method. 

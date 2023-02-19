@@ -12,3 +12,7 @@ Level 2 :Encryption
 Level 3 :Encrypt sensitive information like API keys ,secret keys using Environment variables  
   -create .env file in the root directory and hide it in the .gitignore
   -problem:if someone able to hack into the secret key,it get decrypted .Not so secure ,method. 
+
+Level 4:Hashing Password 
+ -use md5 package of npm 
+ -Hashed password both at register and login time will be compared 

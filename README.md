@@ -18,3 +18,6 @@ Level 4:Hashing Password
  -Hashed password both at register and login time will be compared 
  
 Level 5: Hashing and Salting
+ -Password +Salt(random number) +Hash Function ⇒ Hash 
+ -use of industrial standard bcrypt algorithm to keep the password safe. bcrypt hashes can be predicted very very slowly .
+ -salt rounds ⇒ number of times hashed passwords get hashed with same salt number as in round one.We can change number of salt rounds everyyear to make it hacked proof

@@ -16,3 +16,5 @@ Level 3 :Encrypt sensitive information like API keys ,secret keys using Environm
 Level 4:Hashing Password 
  -use md5 package of npm 
  -Hashed password both at register and login time will be compared 
+ 
+Level 5: Hashing and Salting
